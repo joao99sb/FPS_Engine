@@ -210,7 +210,7 @@ int main(int argc, char const *argv[]) {
 
 
 		screen[nScreenHeight * nScreenWidth - 1] = '\0';
-		WriteConsoleOutputCharacter(hConsole, screen, nScreenHeight* nScreenWidth, { 0,0 }, &dwBytesWritten)
+		WriteConsoleOutputCharacter(hConsole, screen, nScreenHeight* nScreenWidth, { 0,0 }, &dwBytesWritten);
 
 	}
 
